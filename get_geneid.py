@@ -12,9 +12,9 @@ def extract_genes_species(data):
 
 # Main function
 def main():
-    input_file = "filename.txt"
+    input_file = "3rd_paralog_gene.txt"
     #.tsv to get the gene_ID and species name in columns
-    output_file = "paralog.tsv"
+    output_file = "new_paralog.tsv"
 
     try:
         # Read the input file
